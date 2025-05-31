@@ -1,0 +1,9 @@
+module: s3
+meta:
+  name: "Check for virus-s3 bucket"
+  description: "Detects if there is a bucket named 'virus-s3'"
+  severity: "info"
+  category: "naming"
+
+condition:
+  name == "virus-s3"

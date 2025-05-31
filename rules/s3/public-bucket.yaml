@@ -1,0 +1,9 @@
+module: s3
+meta:
+  name: "Bucket is public"
+  description: "Detects if there is a public bucket"
+  severity: "low"
+  category: "naming"
+
+condition:
+  security.isPublic == true
