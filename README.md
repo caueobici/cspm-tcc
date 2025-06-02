@@ -95,7 +95,7 @@ meta:
   category: "naming"
 
 condition:
-  buckets.some(bucket => bucket.name == "virus-s3")
+name == "virus-s3"
 ```
 
 ## License
